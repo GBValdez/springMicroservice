@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple
+          default-label: gateway
           uri: https://github.com/GBValdez/springMicroservice.git
           search-paths: Config-Data
   application:
