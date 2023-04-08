@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          default-label: circuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/GBValdez/springMicroservice.git
           search-paths: Config-Data
   application:
